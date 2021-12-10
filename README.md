@@ -17,8 +17,8 @@
 <div markdown="1">
 
 ### ThreadPoolTaskExecutor
+![스크린샷 2021-12-10 오전 11 24 04](https://user-images.githubusercontent.com/39195377/145506775-7d3609f5-e628-4d25-95c0-da0b7bcb2858.png)
 
-![스크린샷 2021-12-10 오전 9.22.14](/Users/kh/Library/Application Support/typora-user-images/스크린샷 2021-12-10 오전 9.22.14.png)
 
 ##### corePoolSize : 동시에 실행시킬 쓰레드의 갯수를 의미, default : 1
 
@@ -65,7 +65,7 @@ core 스레드를 전부 사용하고, 큐까지 꽉 찬 상태에서 max size�
 
   - **!!예외와 누락 없이 최대한 처리하려면 `CallerRunsPolicy`로 설정**
 
-![스크린샷 2021-12-10 오전 9.50.18](/Users/kh/Library/Application Support/typora-user-images/스크린샷 2021-12-10 오전 9.50.18.png)
+![스크린샷 2021-12-10 오전 11 24 20](https://user-images.githubusercontent.com/39195377/145506794-9f439bc4-b594-4433-a448-f9f418d08fe3.png)
 
 ---
 
@@ -79,7 +79,7 @@ POST http://localhost:8888/actuator/shutdown
 
 이렇게 즉시 종료되면 아직 처리되지 못한 task는 유실된다. 유실 없이 마지막까지 다 처리하고 종료되길 원한다면 설정을 추가해야 한다.
 
-![스크린샷 2021-12-10 오전 9.51.54](/Users/kh/Library/Application Support/typora-user-images/스크린샷 2021-12-10 오전 9.51.54.png)
+
 
 ---
 
