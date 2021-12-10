@@ -87,7 +87,8 @@ POST http://localhost:8888/actuator/shutdown
 
 만약 모든 작업이 처리되길 기다리기 힘든 상황이라면 최대 종료 대기 시간(Timeout)을 설정할 수 있다.
 
-![스크린샷 2021-12-10 오전 9.53.18](/Users/kh/Library/Application Support/typora-user-images/스크린샷 2021-12-10 오전 9.53.18.png)
+![스크린샷 2021-12-10 오전 11 24 53](https://user-images.githubusercontent.com/39195377/145506824-559b32ea-2f88-4d52-b4ca-1863f861e505.png)
+
 
 
 
